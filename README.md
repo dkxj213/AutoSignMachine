@@ -15,7 +15,7 @@
 * **每个月自动领取5张B币券和大会员权益**
 
 ```sh
-node index.js bilibili --cookies "b6*********4a581;"
+node index.js bilibili --cookies "finger=-252427059; rpdid=|(ku|uYuJu)~0J'ulY|)YmY|m; LIVE_BUVID=AUTO8015695468177522; buvid3=BFDEB033-7A9F-4230-B647-FDC50E1A15F8155838infoc; sid=jmj7zz6z; blackside_state=1; CURRENT_FNVAL=80; _uuid=CF032921-DC89-2607-4F1D-68E1A375DAC082708infoc; DedeUserID=474771121; DedeUserID__ckMd5=13bb0a53f527a09b; SESSDATA=90a385b2%2C1620291905%2Cc0211*b1; bili_jct=07afbde278284535ed1ef41e5590925a; fingerprint3=df7598dc7158489d9632d8073f2863f8; fingerprint=a28a4b62a1748a3cdb6952c07a4c11af; buvid_fp=BFDEB033-7A9F-4230-B647-FDC50E1A15F8155838infoc; buvid_fp_plain=BFDEB033-7A9F-4230-B647-FDC50E1A15F8155838infoc; CURRENT_QUALITY=64; bp_video_offset_474771121=486363088736904330; PVID=2; bp_t_offset_474771121=486381887808892472; fingerprint_s=1f742310a5627f24574ecfcf1b490fa8"
 ```
 
 ### docker部署
@@ -77,10 +77,10 @@ docker run \
   -d \
   --label traefik.enable=false \
   -e enable_iqiyi=true \
-  -e P00001=b********jr \
-  -e P00PRU=12***24 \
-  -e QC005=5f******6fe \
-  -e dfp=Jc************I \
+  -e P00001=48jqN1CkvU6scMjCaXx31xfkwvnnj6Sj37RvCktsvZWj0Riqtm2m1Dm2PxSpE1byuLhRA78 \
+  -e P00PRU=1600250877 \
+  -e QC005=da71c2dbaba79ed18b67e72c83b741b3 \
+  -e dfp=a183206e1104334688b93df88f8f2f72b2b2b0be29728958fffc8fd9a8ad4d9e52 \
   auto-sign-machine:latest
 ```
 
